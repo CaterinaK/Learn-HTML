@@ -1,5 +1,5 @@
 # Learn-HTML
-
+<body>
 <h2>Elements and Structure</h2>
 <br>
 <br>
@@ -7,11 +7,10 @@ HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <stron
 Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
 HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
 
-<h3>List</h3>
-<br>
-<br>
-<>(body)</em> - обязательный
-(p) (div) - блоковые элементы. P параграфы, div блоки. После них новый абзац. 
+
+<ul>
+  <li><strong>(body)</strong> - обязательный</li>
+  <li><strong>(p) (div)</strong> - блоковые элементы. P параграфы, div блоки. После них новый абзац.</li>
 (span) - линейный элемент.   
 (br) - пробелы между блоками.   
 (h1) - (h6) - заголовки
@@ -26,3 +25,4 @@ ordered list tag (ol)
 текст между тэгами показывается только когда видео не может быть воспроизведено. 
 
 Отличие self-closing от остальных: не могут содержать контент (т.е. между открывающим и закрывающим тэгом, атрибуты контентом не считаются). 
+</body>
