@@ -3,14 +3,15 @@
 <h2>Elements and Structure</h2>
 <br>
 <br>
-HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
+<div>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
 Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
-HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
-
-
-<ul>
-  <li><strong>(body)</strong> - обязательный</li>
-  <li><strong>(p) (div)</strong> - блоковые элементы. P параграфы, div блоки. После них новый абзац.</li>
+HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</div>
+<br>
+<br>
+  <div>
+    <ul>
+      <li><strong>(body)</strong> - обязательный</li>
+      <li><strong>(p) (div)</strong> - блоковые элементы. P параграфы, div блоки. После них новый абзац.</li>
 (span) - линейный элемент.   
 (br) - пробелы между блоками.   
 (h1) - (h6) - заголовки
