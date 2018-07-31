@@ -1,3 +1,3 @@
 # Learn-HTML
 
-unordered list tag (<ul>)
+unordered list tag (ul)
