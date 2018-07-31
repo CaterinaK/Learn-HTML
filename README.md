@@ -1,8 +1,6 @@
 # Learn-HTML
 <body>
 <h2>Elements and Structure</h2>
-<br>
-<br>
 <div>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
 Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
 HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</div>
@@ -26,7 +24,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
         </ul>
       <li><strong>video</strong> - аналогично для видео. Нужен закрывающий тэг, но атрибуты внутри первого. Атрибуты: 
         <ul>
-          <li><strong>src</strong>, <strong>width</strong>, <strong>height</strong>,<strong>controls</strong> (булевой атрибут true\false, не нужен value это стандартные функции типа паузы и.т.д.) 
+          <li><strong>src</strong>, <strong>width</strong>, <strong>height</strong>,<strong>controls</strong> (булевой атрибут true\false, не нужен value. Это стандартные функции видео типа паузы и.т.д.) 
             <br>
             Атрибут alt не используется, т.к. ссылку на альтернативное видео не сможет воспроизвести, например. Проблема обратной совместимости.
             <br>
