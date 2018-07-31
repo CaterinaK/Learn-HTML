@@ -1,14 +1,16 @@
 # Learn-HTML
 
-<strong>Elements and Structure</strong>
+<h1>Elements and Structure</h1>
 <br>
 <br>
 HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
 Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
 HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
 
-<strong>List</strong>
-<em>(body)</em> - обязательный
+<h2>List</h2>
+<br>
+<br>
+<>(body)</em> - обязательный
 (p) (div) - блоковые элементы. P параграфы, div блоки. После них новый абзац. 
 (span) - линейный элемент.   
 (br) - пробелы между блоками.   
