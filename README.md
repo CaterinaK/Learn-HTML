@@ -5,7 +5,6 @@
 Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
 HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</div>
 <br>
-<br>
   <div>
     <ul>
       <li><strong>body</strong> - обязательный</li>
@@ -17,6 +16,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
       <li><strong>strong</strong> - жирный.</li>  
       <li>unordered list tag <strong>ul</strong> - каждый пункт с li.</li>
       <li>ordered list tag <strong>ol</strong>.</li> 
+      <li><strong>li</strong> - для пунктов списков (любых).</li>
       <li><strong>img</strong> - изображение, self-closing tag (img.... /). 
         <ul>
           <li>Нужен атрибут <strong>src= "URL"</strong> (uniform resource locator).</li> 
