@@ -1,4 +1,5 @@
 # Learn-HTML
+<!DOCTYPE html>
 <body>
 <h2>Elements and Structure</h2>
 <div>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
