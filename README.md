@@ -33,4 +33,13 @@ HTML elements can be nested inside other elements. The enclosed element is the c
         </ul>
             
 Отличие self-closing от остальных: не могут содержать контент (т.е. между открывающим и закрывающим тэгом, атрибуты контентом не считаются). 
+
+!DOCTYPE html - какую версию html используем и.т.д.
+head - метадата
+содержит title - то, как будет называться страничка в браузере. 
+a - гиперссылка, нужен атрибут href="URL".
+
+For a link to open in a new window, the target attribute requires a value of _blank. The target attribute can be added directly to the opening tag of the anchor element, just like the href attribute.
+Yes, there are 4 different values the target attribute can have: _self, _blank, _parent, or _top. These values specify a browsing context or the environment in which the browser will display a document. To learn about each of these values, check out Mozilla docs!
+
 </body>
