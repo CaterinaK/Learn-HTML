@@ -51,6 +51,8 @@ h1 id="bottom NN h1
 
 Programmers use two tools to visualize the relationship between elements: whitespace and indentation. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
 
-Comments begin with <!-- and end with --> 
+Comments begin with !-- and end with -- Или комментарий, если если хочется вынести какой-то текст, чтобы что-то проверить.  
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 </body>
