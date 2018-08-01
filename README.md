@@ -49,4 +49,8 @@ A relative path. about.html, contact.html, and index.html - обычно в од
 p id="top"NN p
 h1 id="bottom NN h1
 
+Programmers use two tools to visualize the relationship between elements: whitespace and indentation. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
+
+
+
 </body>
