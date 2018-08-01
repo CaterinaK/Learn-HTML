@@ -37,9 +37,16 @@ HTML elements can be nested inside other elements. The enclosed element is the c
 !DOCTYPE html - какую версию html используем и.т.д.
 head - метадата
 содержит title - то, как будет называться страничка в браузере. 
-a - гиперссылка, нужен атрибут href="URL".
+a - гиперссылка, якорный элемент, нужен атрибут href="URL".
+Можно сделать не только надпись, но и ссылку на изображение. Может содержать другие тэги, но li не стоит использовать. 
 
 For a link to open in a new window, the target attribute requires a value of _blank. The target attribute can be added directly to the opening tag of the anchor element, just like the href attribute.
-Yes, there are 4 different values the target attribute can have: _self, _blank, _parent, or _top. These values specify a browsing context or the environment in which the browser will display a document. To learn about each of these values, check out Mozilla docs!
+Yes, there are 4 different values the target attribute can have: _self (в том же окне, это по умолчанию), _blank, _parent, or _top (полнооконный режим). 
+
+A relative path. about.html, contact.html, and index.html - обычно в одной папке. The ./ in ./index.html tells the browser to look for the file in the current folder. 
+
+Ссылки на части страницы. In order to link to a target on the same page, we must give the target an id, like this:
+p id="top"NN p
+h1 id="bottom NN h1
 
 </body>
