@@ -55,4 +55,19 @@ Comments begin with !-- and end with -- Или комментарий, если 
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
+table -таблица
+чтобы добавить контент table row element: tr. Этого недостаточно для добавления инфы, нужно для каждого cell элемента добавить тег. 
+the table data element: td. 
+the table heading element: th.
+Note, also, the use of the scope attribute, which can take one of two values:
+
+row - this value makes it clear that the heading is for a row.
+col - this value makes it clear that the heading is for a column.
+
+для того, чтобы добавить границы, можно использовать атрибут border=цифра, но лучше не надо, т.к. это старая версия html. Сейчас границы лучше добавлять с использованием CSS. 
+
+чтобы данные занимали несколько колонок, используют атрибут colspan=число колонок. важно по порядку вносить. 
+чтобы данные занимали несколько row, используют атрибут 
+
+пустая ячейка это та, в которой нет никакого значения. 
 </body>
