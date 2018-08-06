@@ -72,6 +72,10 @@ col - this value makes it clear that the heading is for a column.
 пустая ячейка это та, в которой нет никакого значения. 
 
 если в таблице много данных, её можно разбить на блоки при помощи тегов tbody, thead, tfoot. с помощью css можно сделать так, чтобы верх и низ таблицы отображались при прокручивании основного массива. 
+
+Отличие thead и th: thead 22 is essentially a box to hold your headings for the table. It is used along with tbody and tfoot to make up the entirety of a table - header, body, footer.
+On the otherhand, th 15 is a single heading element.
 </body>
+
 
 
