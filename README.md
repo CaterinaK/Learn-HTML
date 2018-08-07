@@ -1,7 +1,7 @@
 # Learn-HTML
 <!DOCTYPE html>
 <body>
-  <line><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target=_blank>HTML elements reference</a></line>
+  <span><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target=_blank>HTML elements reference</a></span>
   <a href="top">Elements and Structure</a>
   <a href="bottom">Tables</a>
   <hr>
