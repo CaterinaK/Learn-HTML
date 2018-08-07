@@ -75,6 +75,8 @@ col - this value makes it clear that the heading is for a column.
 
 Отличие thead и th: thead 22 is essentially a box to hold your headings for the table. It is used along with tbody and tfoot to make up the entirety of a table - header, body, footer.
 On the otherhand, th 15 is a single heading element.
+
+атрибуты классы (left, например)
 </body>
 
 
