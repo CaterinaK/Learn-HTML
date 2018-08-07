@@ -1,7 +1,7 @@
 # Learn-HTML
 <!DOCTYPE html>
 <body>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target=_blank>HTML elements reference</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML elements reference</a></p>
   <p><a href="#top">Elements and Structure</a></p>
   <a href="#bottom">Tables</a>
   <hr>
@@ -75,7 +75,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     </tr>
     </table>
   </div>
-<div id=#"bottom">
+<div id=#bottom>
   <table>
     <tr>
       <th colspan="2"><h3>Tables</h3></th>
