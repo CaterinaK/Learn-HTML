@@ -1,7 +1,6 @@
 # Learn-HTML
 <!DOCTYPE html>
 <body>
-<h2>Elements and Structure</h2>
 <div>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
 Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
 HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</div>
@@ -71,9 +70,12 @@ HTML elements can be nested inside other elements. The enclosed element is the c
   </div>
 
 
-<h2>Learn HTML: Tables</h2>
+
 <div>
   <table>
+    <tr>
+      <th colspan="2"><h2>Learn HTML: Tables</h2></th>
+    </tr>  
     <tr>
       <td><strong>!DOCTYPE html</strong></td>
       <td>какую версию html используем и.т.д.</td>
