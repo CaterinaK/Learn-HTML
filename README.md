@@ -1,10 +1,13 @@
 # Learn-HTML
 <!DOCTYPE html>
 <body>
-<div>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
+<div>
+  <p>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
 Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
-HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</div>
-<br>
+HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</p>
+  <p>Programmers use two tools to visualize the relationship between elements: <strong>whitespace</strong> and <strong>indentation</strong>. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
+  пустая ячейка это та, в которой нет никакого значения.</p> 
+  </div>
   <div>
   <table>
       <tr> 
@@ -137,28 +140,9 @@ HTML elements can be nested inside other elements. The enclosed element is the c
         <br>
         <strong>tfoot</strong>
       </td>
-    </tr>
     <td> если в таблице много данных, её можно разбить на блоки при помощи тегов tbody, thead, tfoot. С помощью css можно сделать так, чтобы верх и низ таблицы отображались при прокручивании основного массива. 
       Отличие <strong>thead</strong> и <strong>th</strong>: <strong>thead</strong> is essentially a box to hold your headings for the table. It is used along with tbody and tfoot to make up the entirety of a table - <em>header</em>, <em>body</em>, <em>footer</em>.
       On the otherhand, <strong>th</stromg> is a single heading element.</td>
     </tr>
-
-атрибуты классы (left, например)
-
-
-
-The table element creates a table.
-The tr element adds rows to a table.
-To add data to a row, you can use the td element.
-Table headings clarify the meaning of data. Headings are added with the th element.
-Table data can span columns using the colspan attribute.
-Table data can span rows using the rowspan attribute.
-Tables can be split into three main sections: a head, a body, and a footer.
-A table's head is created with the <thead> element.
-A table's body is created with the <tbody> element.
-A table's footer is created with the <tfoot> element.
-All the CSS properties you learned about in this course can be applied to tables and their data.
-  
-  Programmers use two tools to visualize the relationship between elements: whitespace and indentation. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
-  пустая ячейка это та, в которой нет никакого значения. 
+    </table>
   </body>
