@@ -53,16 +53,20 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     </tr>
     <tr>
       <td><strong>img src= "URL"</strong></td>
-      <td>изображение, self-closing tag (img.... /), обязательно с атрибутом,(<strong>u</strong>niform <strong>r</strong>esource <strong>l</strong>ocator).</td>
+      <td>изображение, self-closing tag (img.... /), обязательно с атрибутом, (<strong>u</strong>niform <strong>r</strong>esource <strong>l</strong>ocator).</td>
     </tr>
     <tr>
       <td><strong>alt="..."</strong></td>
       <td>атрибут для описания, помогает оптимизировать поиск (поиск не видит изображения), когда не загрузилась само изображение и.т.д.</td>
     </tr>
-
-<strong>video</strong> - аналогично для видео. Нужен закрывающий тэг, но атрибуты внутри первого. Атрибуты: 
-
-<strong>src</strong>, <strong>width</strong>, <strong>height</strong>,<strong>controls</strong> (булевой атрибут true\false, не нужен value. Это стандартные функции видео типа паузы и.т.д.) 
+    <tr>
+      <td><strong>video</strong></td>
+      <td rowspan="4">аналогично для видео. Нужен закрывающий тэг, но атрибуты внутри первого. Атрибуты: 
+      <td><strong>src</strong></td> 
+      <td><strong>width</strong></td> 
+      <td><strong>height</strong></td>
+      <td><strong>controls</strong>(булевой атрибут true\false, не нужен value. Это стандартные функции видео типа паузы и.т.д.)</td>
+    </tr>  
             <br>
             Атрибут alt не используется, т.к. ссылку на альтернативное видео не сможет воспроизвести, например. Проблема обратной совместимости.
             <br>
