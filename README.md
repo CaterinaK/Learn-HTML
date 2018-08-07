@@ -8,7 +8,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
 <br>
   <div>
   <table>
-      <tr colspan=2> 
+      <tr colspan="2"> 
         <th><h3>Elements and Structure</h3></th>
     </tr>
     <tr>
