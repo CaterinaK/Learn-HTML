@@ -7,35 +7,38 @@ Most HTML elements contain opening and closing tags with raw text or other HTML 
 HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</div>
 <br>
   <div>
-    <ul>
-      <li><strong>body</strong> - обязательный</li>
-      <li><strong>p, div</strong> - блоковые элементы. P параграфы, div блоки. После них новый абзац.</li>
-      <li><strong>span</strong> - линейный элемент.</li>   
-      <li><strong>br</strong> - пробелы между блоками.</li>   
-      <li><strong>h1 - h6</strong> - заголовки.</li>
-      <li><strong>em</strong> -  курсив.</li>
-      <li><strong>strong</strong> - жирный.</li>  
-      <li>unordered list tag <strong>ul</strong> - каждый пункт с li.</li>
-      <li>ordered list tag <strong>ol</strong>.</li> 
-      <li><strong>li</strong> - для пунктов списков (любых).</li>
-      <li><strong>img</strong> - изображение, self-closing tag (img.... /). 
-        <ul>
-          <li>Нужен атрибут <strong>src= "URL"</strong> (uniform resource locator).</li> 
-          <li><strong>alt="..."</strong> для описания, помогает оптимизировать поиск (он не видит изображения), когда                     не загрузилась само изображение и.т.д.</li>
-        </ul>
-      <li><strong>video</strong> - аналогично для видео. Нужен закрывающий тэг, но атрибуты внутри первого. Атрибуты: 
-        <ul>
-          <li><strong>src</strong>, <strong>width</strong>, <strong>height</strong>,<strong>controls</strong> (булевой атрибут true\false, не нужен value. Это стандартные функции видео типа паузы и.т.д.) 
+  <table>
+      <tr colspan=2> 
+        <th><h3>Elements and Structure</h3></th>
+    </tr>
+     <strong>body</strong> - обязательный
+    <strong>p, div</strong> - блоковые элементы. P параграфы, div блоки. После них новый абзац.
+  <strong>span</strong> - линейный элемент. 
+  <strong>br</strong> - пробелы между блоками.   
+<strong>h1 - h6</strong> - заголовки.
+ <strong>em</strong> -  курсив.
+<strong>strong</strong> - жирный.
+  unordered list tag <strong>ul</strong> - каждый пункт с li.
+ordered list tag <strong>ol</strong>.
+<strong>li</strong> - для пунктов списков (любых).
+<strong>img</strong> - изображение, self-closing tag (img.... /). 
+      
+Нужен атрибут <strong>src= "URL"</strong> (uniform resource locator).
+<strong>alt="..."</strong> для описания, помогает оптимизировать поиск (он не видит изображения), когда                     не загрузилась само изображение и.т.д.
+
+<strong>video</strong> - аналогично для видео. Нужен закрывающий тэг, но атрибуты внутри первого. Атрибуты: 
+
+<strong>src</strong>, <strong>width</strong>, <strong>height</strong>,<strong>controls</strong> (булевой атрибут true\false, не нужен value. Это стандартные функции видео типа паузы и.т.д.) 
             <br>
             Атрибут alt не используется, т.к. ссылку на альтернативное видео не сможет воспроизвести, например. Проблема обратной совместимости.
             <br>
 Текст между тэгами показывается только когда видео не может быть воспроизведено. 
-        </ul>
             
 Отличие self-closing от остальных: не могут содержать контент (т.е. между открывающим и закрывающим тэгом, атрибуты контентом не считаются). 
 
-!DOCTYPE html - какую версию html используем и.т.д.
-head - метадата
+<h2>Learn HTML: Tables</h2>
+<strong>!DOCTYPE html</strong> - какую версию html используем и.т.д.
+<strong>head</strong> - метадата
 содержит title - то, как будет называться страничка в браузере. 
 a - гиперссылка, якорный элемент, нужен атрибут href="URL".
 Можно сделать не только надпись, но и ссылку на изображение. Может содержать другие тэги, но li не стоит использовать. 
@@ -77,7 +80,7 @@ col - this value makes it clear that the heading is for a column.
 On the otherhand, th 15 is a single heading element.
 
 атрибуты классы (left, например)
-</body>
+
 
 
 The table element creates a table.
@@ -91,3 +94,4 @@ A table's head is created with the <thead> element.
 A table's body is created with the <tbody> element.
 A table's footer is created with the <tfoot> element.
 All the CSS properties you learned about in this course can be applied to tables and their data.
+  </body>
