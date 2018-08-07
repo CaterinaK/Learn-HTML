@@ -74,7 +74,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
 <div>
   <table>
     <tr>
-      <th colspan="2"><h2>Learn HTML: Tables</h2></th>
+      <th colspan="2">Tables</th>
     </tr>  
     <tr>
       <td><strong>!DOCTYPE html</strong></td>
@@ -86,18 +86,18 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     </tr>
     <tr>
       <td><strong>a</strong></td>
-      <td>гиперссылка, якорный элемент, нужен атрибут <strong>href="URL"</strong>.Можно сделать не только надпись, но и ссылку на изображение. Может содержать другие тэги, но li не стоит использовать.</td>
-    </tr>  
-
-
-For a link to open in a new window, the target attribute requires a value of _blank. The target attribute can be added directly to the opening tag of the anchor element, just like the href attribute.
-Yes, there are 4 different values the target attribute can have: _self (в том же окне, это по умолчанию), _blank, _parent, or _top (полнооконный режим). 
+      <td>гиперссылка, якорный элемент (anchor element), нужен атрибут <strong>href="URL"</strong>.Можно сделать не только надпись, но и ссылку на изображение. Может содержать другие тэги, но li не стоит использовать. Атрибут<strong>target</td> для определения, где будет открываться ссылка. Значения: <strong>_blank</strong> (в новом окне), <strong>_self</strong> (в этом же окне, параметр по умолчанию), <strong>_parent</strong>, <strong>_top</strong> (полнооконный режим).</td>
+    </tr> 
+    <tr>
+    <td><strong>id</strong></td>
+    <td>для ссылки на части страницы нужно задать значение, например p id="top"NN p, h1 id="bottom NN h1.</td>
+    </tr>
+    
 
 A relative path. about.html, contact.html, and index.html - обычно в одной папке. The ./ in ./index.html tells the browser to look for the file in the current folder. 
 
-Ссылки на части страницы. In order to link to a target on the same page, we must give the target an id, like this:
-p id="top"NN p
-h1 id="bottom NN h1
+
+
 
 Programmers use two tools to visualize the relationship between elements: whitespace and indentation. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
 
