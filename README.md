@@ -74,7 +74,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
 <div>
   <table>
     <tr>
-      <th colspan="2">Tables</th>
+      <th colspan="2"><h3>Tables</h3></th>
     </tr>  
     <tr>
       <td><strong>!DOCTYPE html</strong></td>
@@ -142,7 +142,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
       </td>
     <td> если в таблице много данных, её можно разбить на блоки при помощи тегов tbody, thead, tfoot. С помощью css можно сделать так, чтобы верх и низ таблицы отображались при прокручивании основного массива. 
       Отличие <strong>thead</strong> и <strong>th</strong>: <strong>thead</strong> is essentially a box to hold your headings for the table. It is used along with tbody and tfoot to make up the entirety of a table - <em>header</em>, <em>body</em>, <em>footer</em>.
-      On the otherhand, <strong>th</stromg> is a single heading element.</td>
+      On the otherhand, <strong>th</strong>is a single heading element.</td>
     </tr>
     </table>
   </body>
