@@ -87,7 +87,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     <tr>
       <td><strong>a</strong></td>
       <td>гиперссылка, якорный элемент (anchor element), нужен атрибут <strong>href="URL"</strong>.Можно сделать не только надпись, но и ссылку на изображение. Может содержать другие тэги, но li не стоит использовать. 
-        <br>Атрибут <strong>target</td> для определения, где будет открываться ссылка. Значения: <strong>_blank</strong> (в новом окне), <strong>_self</strong> (в этом же окне, параметр по умолчанию), <strong>_parent</strong>, <strong>_top</strong> (полнооконный режим).</td>
+        <br>Атрибут <strong>target для определения, где будет открываться ссылка. Значения: <strong>_blank</strong> (в новом окне), <strong>_self</strong> (в этом же окне, параметр по умолчанию), <strong>_parent</strong>, <strong>_top</strong> (полнооконный режим).</td>
     </tr> 
     <tr>
     <td><strong>id</strong></td>
