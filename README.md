@@ -53,7 +53,8 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     </tr>
     <tr>
       <td><strong>img src= "URL"</strong></td>
-      <td>изображение, self-closing tag (img.... /), обязательно с атрибутом, (<strong>u</strong>niform <strong>r</strong>esource <strong>l</strong>ocator).</td>
+      <td>изображение, self-closing tag (img.... /), обязательно с атрибутом, (<strong>u</strong>niform <strong>r</strong>esource <strong>l</strong>ocator).
+      Отличие self-closing от остальных: не могут содержать контент (т.е. между открывающим и закрывающим тэгом, атрибуты контентом не считаются).</td>
     </tr>
     <tr>
       <td><strong>alt="..."</strong></td>
@@ -63,21 +64,29 @@ HTML elements can be nested inside other elements. The enclosed element is the c
       <td><strong>video</strong></td>
       <td>аналогично для видео. Нужен закрывающий тэг, но атрибуты внутри первого. Атрибуты: <strong>src</strong><strong>width</strong>, <strong>height</strong>, <strong>controls</strong>(булевой атрибут true\false, не нужен value. Это стандартные функции видео типа паузы и.т.д.)
            <br>
-            Атрибут alt не используется, т.к. ссылку на альтернативное видео не сможет воспроизвести, например. Проблема обратной совместимости.
+        Атрибут <strong>alt</strong> не используется, т.к. ссылку на альтернативное видео не сможет воспроизвести, например. Проблема обратной совместимости.
         <br> Текст между тэгами показывается только когда видео не может быть воспроизведено.</td> 
-    </tr>  
-         
-      
+    </tr>
+    </table>
+  </div>
 
-            
-Отличие self-closing от остальных: не могут содержать контент (т.е. между открывающим и закрывающим тэгом, атрибуты контентом не считаются). 
 
 <h2>Learn HTML: Tables</h2>
-<strong>!DOCTYPE html</strong> - какую версию html используем и.т.д.
-<strong>head</strong> - метадата
-содержит title - то, как будет называться страничка в браузере. 
-a - гиперссылка, якорный элемент, нужен атрибут href="URL".
-Можно сделать не только надпись, но и ссылку на изображение. Может содержать другие тэги, но li не стоит использовать. 
+<div>
+  <table>
+    <tr>
+      <td><strong>!DOCTYPE html</strong></td>
+      <td>какую версию html используем и.т.д.</td>
+    </tr>
+    <tr>
+      <td><strong>head</strong></td>
+      <td>метадата, содержит <strong>title</strong> - то, как будет называться страничка в браузере.</td> 
+    </tr>
+    <tr>
+      <td><strong>a</strong></td>
+      <td>гиперссылка, якорный элемент, нужен атрибут <strong>href="URL"</strong>.Можно сделать не только надпись, но и ссылку на изображение. Может содержать другие тэги, но li не стоит использовать.</td>
+    </tr>  
+
 
 For a link to open in a new window, the target attribute requires a value of _blank. The target attribute can be added directly to the opening tag of the anchor element, just like the href attribute.
 Yes, there are 4 different values the target attribute can have: _self (в том же окне, это по умолчанию), _blank, _parent, or _top (полнооконный режим). 
