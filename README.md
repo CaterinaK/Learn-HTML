@@ -120,19 +120,31 @@ HTML elements can be nested inside other elements. The enclosed element is the c
         <br>
         <strong>col</strong> — this value makes it clear that the heading is for a column.</td>
     </tr>
-
-
-для того, чтобы добавить границы, можно использовать атрибут border=цифра, но лучше не надо, т.к. это старая версия html. Сейчас границы лучше добавлять с использованием CSS. 
-
-чтобы данные занимали несколько колонок, используют атрибут colspan=число колонок. важно по порядку вносить. 
-чтобы данные занимали несколько row, используют атрибут rowspan. можно и для th, тогда нужно использовать атрибут scope=”rowgroup”. 
-
-пустая ячейка это та, в которой нет никакого значения. 
-
-если в таблице много данных, её можно разбить на блоки при помощи тегов tbody, thead, tfoot. с помощью css можно сделать так, чтобы верх и низ таблицы отображались при прокручивании основного массива. 
-
-Отличие thead и th: thead 22 is essentially a box to hold your headings for the table. It is used along with tbody and tfoot to make up the entirety of a table - header, body, footer.
-On the otherhand, th 15 is a single heading element.
+    <tr>
+      <td><strong>border=цифра</strong></td>
+      <td> для того, чтобы добавить границы, можно использовать атрибут border=цифра, но лучше не надо, т.к. это старая версия html. Сейчас границы лучше добавлять с использованием CSS.</td>
+    </tr>
+    <tr>
+      <td><strong>colspan=цифра</strong></td>
+      <td> чтобы данные занимали несколько колонок, используют атрибут colspan=число колонок. Важно  вносить по порядку.</td>
+    </tr>
+    <tr>
+      <td><strong>rowspan</strong></td>
+      <td>чтобы данные занимали несколько row, используют атрибут rowspan. можно и для <strong>th</strong>, тогда нужно использовать атрибут <strong>scope=”rowgroup”</strong>.</td>
+      </tr>
+    <tr> 
+      <td rowspan="3">
+        <strong>tbody</strong>,
+        <br>
+        <strong>thead</strong>,
+        <br>
+        <strong>tfoot</strong>.
+      </td>
+    </tr>
+    <td> если в таблице много данных, её можно разбить на блоки при помощи тегов tbody, thead, tfoot. С помощью css можно сделать так, чтобы верх и низ таблицы отображались при прокручивании основного массива. 
+      Отличие <strong>thead</strong> и <strong>th</strong>: <strong>thead</strong> is essentially a box to hold your headings for the table. It is used along with tbody and tfoot to make up the entirety of a table - <em>header</em>, <em>body</em>, <em>footer</em>.
+      On the otherhand, <strong>th</stromg> is a single heading element.</td>
+    </tr>
 
 атрибуты классы (left, например)
 
@@ -151,4 +163,5 @@ A table's footer is created with the <tfoot> element.
 All the CSS properties you learned about in this course can be applied to tables and their data.
   
   Programmers use two tools to visualize the relationship between elements: whitespace and indentation. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
+  пустая ячейка это та, в которой нет никакого значения. 
   </body>
