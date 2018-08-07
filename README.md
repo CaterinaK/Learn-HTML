@@ -8,7 +8,9 @@ HTML elements can be nested inside other elements. The enclosed element is the c
   <p>Programmers use two tools to visualize the relationship between elements: <strong>whitespace</strong> and <strong>indentation</strong>. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
   пустая ячейка это та, в которой нет никакого значения.</p> 
   </div>
-  <div>
+  <a href="top">Elements and Structure</a>
+  <a href="bottom">Tables</a>
+  <div id=#top>
   <table>
       <tr> 
         <th colspan="2"><h3>Elements and Structure</h3></th>
@@ -71,7 +73,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     </tr>
     </table>
   </div>
-<div>
+<div id=#"bottom">
   <table>
     <tr>
       <th colspan="2"><h3>Tables</h3></th>
@@ -92,7 +94,8 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     <tr>
     <td><strong>id</strong></td>
     <td>для ссылки на части страницы нужно задать значение, например p id="top"NN p, h1 id="bottom NN h1. 
-      <br>A relative path. about.html, contact.html, and index.html - обычно в одной папке. The ./ in ./index.html tells the browser to look for the file in the current folder.</td>
+      <br>A relative path. about.html, contact.html, and index.html - обычно в одной папке. 
+      <br>The ./ in ./index.html tells the browser to look for the file in the current folder.</td>
     </tr>
     <tr>
       <td><strong>!---NN---</strong></td>
@@ -144,5 +147,8 @@ HTML elements can be nested inside other elements. The enclosed element is the c
       Отличие <strong>thead</strong> и <strong>th</strong>: <strong>thead</strong> is essentially a box to hold your headings for the table. It is used along with tbody and tfoot to make up the entirety of a table - <em>header</em>, <em>body</em>, <em>footer</em>.
       On the otherhand, <strong>th</strong>is a single heading element.</td>
     </tr>
+    <tr>
+      <td><strong>class=...</strong></td>
+      <td>
     </table>
   </body>
