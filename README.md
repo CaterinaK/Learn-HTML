@@ -50,11 +50,15 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     <tr>
       <td><strong>li</strong></td>
       <td>для пунктов списков (любых).</td>
-    </tr>  
-<strong>img</strong> - изображение, self-closing tag (img.... /). 
-      
-Нужен атрибут <strong>src= "URL"</strong> (uniform resource locator).
-<strong>alt="..."</strong> для описания, помогает оптимизировать поиск (он не видит изображения), когда                     не загрузилась само изображение и.т.д.
+    </tr>
+    <tr>
+      <td><strong>img src= "URL"</strong></td>
+      <td>изображение, self-closing tag (img.... /), обязательно с атрибутом,(<strong>u</strong>niform <strong>r</strong>esource <strong>l</strong>ocator).</td>
+    </tr>
+    <tr>
+      <td><strong>alt="..."</strong></td>
+      <td>атрибут для описания, помогает оптимизировать поиск (поиск не видит изображения), когда не загрузилась само изображение и.т.д.</td>
+    </tr>
 
 <strong>video</strong> - аналогично для видео. Нужен закрывающий тэг, но атрибуты внутри первого. Атрибуты: 
 
