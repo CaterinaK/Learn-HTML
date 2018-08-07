@@ -8,8 +8,8 @@ HTML elements can be nested inside other elements. The enclosed element is the c
   <p>Programmers use two tools to visualize the relationship between elements: <strong>whitespace</strong> and <strong>indentation</strong>. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
   пустая ячейка это та, в которой нет никакого значения.</p> 
   </div>
-  <a href="top">Elements and Structure</a>
-  <a href="bottom">Tables</a>
+  <a href="top"><p>Elements and Structure</p></a>
+  <a href="bottom"><p>Tables</p></a>
   <div id=#top>
   <table>
       <tr> 
