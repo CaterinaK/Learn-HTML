@@ -3,7 +3,7 @@
 <body>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target=_blank>HTML elements reference</a>
   <a href="top"><p>Elements and Structure</p></a>
-  <a href="bottom"><p>Tables</p></a>
+  <a href="bottom">Tables</a>
   <hr>
 <div>
   <p>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
