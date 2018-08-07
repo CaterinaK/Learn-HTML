@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <body>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target=_blank>HTML elements reference</a></p>
-  <p><a href="id=#top">Elements and Structure</a></p>
-  <a href="id=#bottom">Tables</a>
+  <p><a href="#top">Elements and Structure</a></p>
+  <a href="#bottom">Tables</a>
   <hr>
 <div>
   <p>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage). 
