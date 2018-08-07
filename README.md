@@ -11,7 +11,10 @@ HTML elements can be nested inside other elements. The enclosed element is the c
       <tr colspan=2> 
         <th><h3>Elements and Structure</h3></th>
     </tr>
-     <strong>body</strong> - обязательный
+    <tr>
+      <td><strong>body</strong></td>
+      <td>обязательный</td>
+    </tr> 
     <strong>p, div</strong> - блоковые элементы. P параграфы, div блоки. После них новый абзац.
   <strong>span</strong> - линейный элемент. 
   <strong>br</strong> - пробелы между блоками.   
