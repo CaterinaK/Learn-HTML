@@ -87,33 +87,40 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     <tr>
       <td><strong>a</strong></td>
       <td>гиперссылка, якорный элемент (anchor element), нужен атрибут <strong>href="URL"</strong>.Можно сделать не только надпись, но и ссылку на изображение. Может содержать другие тэги, но li не стоит использовать. 
-        <br>Атрибут <strong>target для определения, где будет открываться ссылка. Значения: <strong>_blank</strong> (в новом окне), <strong>_self</strong> (в этом же окне, параметр по умолчанию), <strong>_parent</strong>, <strong>_top</strong> (полнооконный режим).</td>
+        <br>Атрибут <strong>target</strong> для определения, где будет открываться ссылка. Значения: <strong>_blank</strong> (в новом окне), <strong>_self</strong> (в этом же окне, параметр по умолчанию), <strong>_parent</strong>, <strong>_top</strong> (полнооконный режим).</td>
     </tr> 
     <tr>
     <td><strong>id</strong></td>
-    <td>для ссылки на части страницы нужно задать значение, например p id="top"NN p, h1 id="bottom NN h1.</td>
+    <td>для ссылки на части страницы нужно задать значение, например p id="top"NN p, h1 id="bottom NN h1. 
+      <br>A relative path. about.html, contact.html, and index.html - обычно в одной папке. The ./ in ./index.html tells the browser to look for the file in the current folder.</td>
     </tr>
-    
+    <tr>
+      <td><strong>!---NN---</strong></td>
+      <td>комментарий\если нужно вынести текст, чтобы что-то проверить.</td>
+    </tr>  
+    <tr>
+      <td><strong>table</strong></td>
+      <td>таблица.</td>
+    </tr>
+    <tr>
+      <td><strong>tr</strong></td>
+      <td>чтобы добавить контент (table row element: tr). Этого недостаточно для добавления инфы, нужно для каждого cell элемента добавить тег.</td>
+    </tr>
+    <tr>
+      <td><strong>td</strong></td>
+      <td>the table data element: td.</td>
+    </tr>
+    <tr>
+      <td><strong>th</strong></td>
+      <td>the table heading element: th.</td>
+    </tr>  
+    <tr>
+      <td><strong>scope</strong></td>
+      <td rowspan="2"><strong>row</strong> — this value makes it clear that the heading is for a row.
+        <br>
+        <strong>col</strong> — this value makes it clear that the heading is for a column.</td>
+    </tr>
 
-A relative path. about.html, contact.html, and index.html - обычно в одной папке. The ./ in ./index.html tells the browser to look for the file in the current folder. 
-
-
-
-
-Programmers use two tools to visualize the relationship between elements: whitespace and indentation. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
-
-Comments begin with !-- and end with -- Или комментарий, если если хочется вынести какой-то текст, чтобы что-то проверить.  
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-
-table -таблица
-чтобы добавить контент table row element: tr. Этого недостаточно для добавления инфы, нужно для каждого cell элемента добавить тег. 
-the table data element: td. 
-the table heading element: th.
-Note, also, the use of the scope attribute, which can take one of two values:
-
-row - this value makes it clear that the heading is for a row.
-col - this value makes it clear that the heading is for a column.
 
 для того, чтобы добавить границы, можно использовать атрибут border=цифра, но лучше не надо, т.к. это старая версия html. Сейчас границы лучше добавлять с использованием CSS. 
 
@@ -142,4 +149,6 @@ A table's head is created with the <thead> element.
 A table's body is created with the <tbody> element.
 A table's footer is created with the <tfoot> element.
 All the CSS properties you learned about in this course can be applied to tables and their data.
+  
+  Programmers use two tools to visualize the relationship between elements: whitespace and indentation. Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings. Это типа отступы. 
   </body>
