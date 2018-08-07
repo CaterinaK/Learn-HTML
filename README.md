@@ -26,13 +26,31 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     <tr>
       <td><strong>br</strong></td>
       <td>пробелы между блоками.</td>
+    </tr>
+    <tr>
+      <td><strong>h1 - h6</strong></td>
+      <td>заголовки.</td>
+    </tr>
+    <tr>
+      <td><strong>em</strong></td>
+      <td>курсив.</td>
+    </tr>
+    <tr>
+      <td><strong>strong</strong></td>
+      <td>жирный.</td>
+    </tr>
+    <tr>
+      <td><strong>ul</strong></td>
+      <td>unordered list tag, каждый пункт с li.</td>
+    </tr>
+    <tr>
+      <td><strong>ol</strong></td> 
+      <td>ordered list ta.</td>
+    </tr>
+    <tr>
+      <td><strong>li</strong></td>
+      <td>для пунктов списков (любых).</td>
     </tr>  
-<strong>h1 - h6</strong> - заголовки.
- <strong>em</strong> -  курсив.
-<strong>strong</strong> - жирный.
-  unordered list tag <strong>ul</strong> - каждый пункт с li.
-ordered list tag <strong>ol</strong>.
-<strong>li</strong> - для пунктов списков (любых).
 <strong>img</strong> - изображение, self-closing tag (img.... /). 
       
 Нужен атрибут <strong>src= "URL"</strong> (uniform resource locator).
