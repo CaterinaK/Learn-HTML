@@ -68,9 +68,6 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     </tr>
     </table>
   </div>
-
-
-
 <div>
   <table>
     <tr>
@@ -116,7 +113,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     </tr>  
     <tr>
       <td><strong>scope</strong></td>
-      <td rowspan="2"><strong>row</strong> — this value makes it clear that the heading is for a row.
+      <td><strong>row</strong> — this value makes it clear that the heading is for a row.
         <br>
         <strong>col</strong> — this value makes it clear that the heading is for a column.</td>
     </tr>
@@ -133,12 +130,12 @@ HTML elements can be nested inside other elements. The enclosed element is the c
       <td>чтобы данные занимали несколько row, используют атрибут rowspan. можно и для <strong>th</strong>, тогда нужно использовать атрибут <strong>scope=”rowgroup”</strong>.</td>
       </tr>
     <tr> 
-      <td rowspan="3">
-        <strong>tbody</strong>,
+      <td>
+        <strong>tbody</strong>
         <br>
-        <strong>thead</strong>,
+        <strong>thead</strong>
         <br>
-        <strong>tfoot</strong>.
+        <strong>tfoot</strong>
       </td>
     </tr>
     <td> если в таблице много данных, её можно разбить на блоки при помощи тегов tbody, thead, tfoot. С помощью css можно сделать так, чтобы верх и низ таблицы отображались при прокручивании основного массива. 
