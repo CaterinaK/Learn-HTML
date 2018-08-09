@@ -51,7 +51,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
     </tr>
     <tr>
       <td><strong>ol</strong></td> 
-      <td>ordered list ta.</td>
+      <td>ordered list.</td>
     </tr>
     <tr>
       <td><strong>li</strong></td>
